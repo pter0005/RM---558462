@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #a8d0e6, #b3d9ff, #3399ff) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background-color: rgba(51, 153, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.register-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #0066cc;
+    border-color: #0066cc;
+}
+
+.btn-primary:hover {
+    background-color: #005bb5;
+    border-color: #005bb5;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-primary img, .btn-outline-danger img {
+    margin-right: 8px;
+}
